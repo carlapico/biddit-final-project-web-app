@@ -1,0 +1,41 @@
+body {
+    background-color: #1A77F2;
+    display: flex;
+    justify-content: center;
+  } 
+  
+  h1 {
+    position: absolute;
+    width: 589px;
+    height: 151px;
+    left: 569px;
+    top: 332px;
+  
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 131px;
+    text-align: center;
+  
+    color: #FFFFFF;
+  }
+  
+  h3 {
+    position: absolute;
+    width: 959px;
+    height: 100px;
+    left: 384px;
+    top: 523px;
+  
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 50px;
+  
+    text-align: center;
+  
+    color: #FFFFFF;
+  
+  } 
