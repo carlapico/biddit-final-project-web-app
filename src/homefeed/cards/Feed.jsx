@@ -12,19 +12,13 @@ export default function Feed () {
             .catch ((error) => console.error(error))
     }, [])
 
-
-
     return (
-       
-
         <>
-            feed goes here.. 
                 {posts.map( (each) => {
                     return (
                         <PostCard each ={each}/>
                     )
                 } )}
         </>
-
     )
 }

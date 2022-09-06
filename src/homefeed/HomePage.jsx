@@ -1,4 +1,4 @@
-// import Header from "../components/Header";
+import Header from "../components/Header";
 // import ProfileCard from "./cards/ProfileCard"
 // import NewPost from "./cards/NewPost"
 import Feed from "./cards/Feed"
@@ -7,7 +7,7 @@ import Feed from "./cards/Feed"
 export default function HomeFeed () {
     return (
         <>
-            {/* <Header />  */}
+            <Header /> 
             {/* <ProfileCard />
             <NewPost /> */}
             <Feed /> 

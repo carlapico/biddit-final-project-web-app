@@ -1,0 +1,29 @@
+.postCard {
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.countyAndServices {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectDetailsBox {
+    display:flex;
+}
+
+section {
+    display: flex;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+button {
+    display: flex;
+    justify-content: flex-end;
+}
