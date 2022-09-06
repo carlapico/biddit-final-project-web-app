@@ -1,4 +1,4 @@
-import "./welcomeScreen.css"
+// import "./welcomeScreen.css"
 
 function WelcomeScreen() {
     
