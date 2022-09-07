@@ -1,17 +1,18 @@
 import Header from "../components/Header";
-// import ProfileCard from "./cards/ProfileCard"
-// import NewPost from "./cards/NewPost"
+import ProfileCard from "./cards/ProfileCard"
+import NewPost from "./cards/NewPost"
 import Feed from "./cards/Feed"
-// import ActivityCard from "./cards/ActivityCard"
+import ActivityCard from "./cards/ActivityCard"
+import "./HomePage.css"
 
 export default function HomeFeed () {
     return (
         <>
-            <Header /> 
-            {/* <ProfileCard />
-            <NewPost /> */}
+            <Header/> 
+            <ProfileCard />
+            <ActivityCard />
+            <NewPost />
             <Feed /> 
-            {/* <ActivityCard /> */}
         </>
     )
 }

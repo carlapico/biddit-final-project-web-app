@@ -2,9 +2,10 @@
 export default function NewPost () {
     return (
         <> 
+            <h1> New Post goes here ... </h1>
 
             
-            Need a post route here to post to the feed. 
+            {/* Need a post route here to post to the feed. 
                 get route for: 
                     profile pic 
                     name 
@@ -12,7 +13,7 @@ export default function NewPost () {
             {/* Seeking a ... dropdown menu for services 
                 get route is needed here  ----- lowest priority for the post card */}
 
-            Form 
+            {/* Form 
                 Project Overview input text box 
 
                 project requirement input text box 
@@ -21,7 +22,7 @@ export default function NewPost () {
 
                 timeline date input box 
                 
-                post button 
+                post button  */}
             
         </>
     )

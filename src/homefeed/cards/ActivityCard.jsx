@@ -1,9 +1,15 @@
 // this card is lowest priority to complete 
+import "./ActivityCard.css"
 
 export default function ActivityCard () {
     return (
         <>
-        Need get route for all of this 
+            <div className="activityCardBox">
+                <h2>Active Projects</h2>
+                <h2>Active Bids </h2>
+                <h2>Completed Projects</h2>
+            </div>
+        {/* Need get route for all of this 
             active projects 
                 service sought 
                 mark as completed button // this needs a post route
@@ -12,7 +18,7 @@ export default function ActivityCard () {
                 service company name 
             completed projects
                 services rendered
-                service company name
+                service company name */}
         </>
     )
 }

@@ -8,7 +8,7 @@ export default function PostCard ({each}) {
 
                  <div className="countyAndServices">
                     <p>{each.userCounty}</p>
-                    <p>{each.servicesSeeking}</p>
+                    <p> Seeking a {each.servicesSeeking}</p>
                 </div>
 
                 <div className="projectDetailsBox">
@@ -16,15 +16,17 @@ export default function PostCard ({each}) {
                         <h3> Project Overview </h3>
                          {each.projectOverview}
                     </section>
+                    
                     <section>
                         <h3> Project Requirements </h3>
                         {each.projectRequirements}
                     </section>
+
                     <section>
                         <h3> Budget and Timeline </h3>
                         <p> Budget: {each.budget} </p>
                         <p> Ideal Timeline: {each.timeline} </p>
-                </section>
+                    </section>
                 </div>
 
                 <button>Biddit</button>
