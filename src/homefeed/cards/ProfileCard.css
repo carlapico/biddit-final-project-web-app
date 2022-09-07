@@ -6,7 +6,7 @@
 
 .profileCardBox {
 
-    position: relative;
+    /* position: relative; */
     width: 250px;
     height: 350px;
     padding: 10px;
@@ -23,4 +23,11 @@
     justify-content: center;
 
     color: white;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 30px;
 }

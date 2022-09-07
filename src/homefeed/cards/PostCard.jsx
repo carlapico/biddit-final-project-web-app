@@ -4,6 +4,9 @@ export default function PostCard ({each}) {
     return (
         <>
             <div className="postCard">
+
+                <img src={each.photoUrl} alt="profile image for each user" />
+
                  <h2>{each.userFullName} </h2>
 
                  <div className="countyAndServices">

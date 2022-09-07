@@ -1,3 +1,5 @@
 body {
     background-color: #F5F6F7;
+    margin-top: 70px; /* Add a top margin to avoid content overlay */
+
 }
