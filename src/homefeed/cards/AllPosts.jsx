@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import PostCard from "./PostCard"
 
-export default function Feed () {
+export default function AllPosts () {
     const [posts, setPosts] = useState([])
     const url = "https://biddit-final-project-cp.web.app/userPosts" //userPosts"
     

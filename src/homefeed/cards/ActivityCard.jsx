@@ -6,7 +6,7 @@ export default function ActivityCard () {
         <>
             <div className="activityCardBox">
                 <h2>Active Projects</h2>
-                    <li>Project 1</li> <button>Mark as Completed</button>
+                    <p>Project 1</p> <button>Mark as Completed</button>
                     <p>Project 2</p> <button>Mark as Completed</button>
                     <p>Project 3</p> <button>Mark as Completed</button>
                 <h2>Active Bids </h2>

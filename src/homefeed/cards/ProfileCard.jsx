@@ -5,9 +5,9 @@ export default function ProfileCard () {
         <> 
             <div className="profileCardBox">
                 <img src="https://miro.medium.com/fit/c/176/176/1*pWl9qTTcbNpJGa2wll6awg.jpeg" alt="empty profile picture" />
-                <h2>Picture and Name</h2>
-                <p> user County </p>
-                <p> user Projects</p>
+                <h2>Carla Pico</h2>
+                <p> Palm Beach County </p>
+                <p> Completed Projects</p>
             </div>
             {/* get route 
                 profile pic 
