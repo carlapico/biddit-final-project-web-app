@@ -3,9 +3,9 @@ import NewPost from "./cards/NewPost";
 
 export default function CompleteFeed () {
     return(
-        <>
+        <div className="rightSide">
             <NewPost />
             <AllPosts /> 
-        </>
+        </div>
     )
 }

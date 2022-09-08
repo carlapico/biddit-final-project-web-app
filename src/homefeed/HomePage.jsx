@@ -7,8 +7,11 @@ export default function HomeFeed () {
     return (
         <>
             <Header/> 
-            <ProfileAndActivity /> 
-            <CompleteFeed /> 
+            <div className="fullPageLayout">
+                <ProfileAndActivity /> 
+                <CompleteFeed /> 
+            </div>
+
         </>
     )
 }

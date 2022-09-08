@@ -1,0 +1,5 @@
+.rightSide {
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+}

@@ -2,6 +2,7 @@
 // import { useState } from "react";
 // import { Input } from 'antd';
 // const { Search } = Input;
+import { Form } from "antd"
 import "./NewPost.css"
 
 export default function NewPost () {
@@ -27,16 +28,17 @@ export default function NewPost () {
 
 
     return (
-        <> 
-            <form className="newPostBox">                
-                {/* <input value = {each.userFullName} name="Name" id="" /> */}
+        <Form> 
+            <form className="newPostBox">         
+
+                {/* <input value = {.userFullName} name="Name" id="" /> */}
 
                 <div className="countyAndServices">
-                   <p></p>
+                   <p> user County </p>
                    <p> Seeking a // input box here</p>
                </div>
 
-               <div className="projectDetailsBox">
+               <div>
                    <section>
                        <h3> Project Overview </h3>
                         input box here 
@@ -76,6 +78,6 @@ export default function NewPost () {
                 
                 post button  */}
             
-        </>
+        </Form>
     )
 }
