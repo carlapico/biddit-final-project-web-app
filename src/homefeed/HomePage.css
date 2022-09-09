@@ -5,6 +5,7 @@ body {
 }
 
 .fullPageLayout {
-    border-style: solid;
+    /* border-style: solid; */
     display: flex;
+    margin: 10px;
 }

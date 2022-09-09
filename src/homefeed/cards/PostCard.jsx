@@ -1,6 +1,10 @@
+import React, { useState } from "react";
+import { Modal } from 'antd';
 import "./PostCard.css"
 
 export default function PostCard ({each}) {
+    const [open, setOpen] = useState(false);
+
     return (
         <>
             <div className="postCard">
@@ -35,9 +39,23 @@ export default function PostCard ({each}) {
                 </div>
 
                 <div className="bidditButtonBox">
-                    <button className="bidditButton">Biddit</button>
+                    <button onClick={() => setOpen(true)} className="bidditButton" >Biddit</button>
                 </div>
+
             </div>
+
+            <Modal
+                    title="Biddit"
+                    centered
+                    open={open}
+                    onOk={() => setOpen(false)}
+                    onCancel={() => setOpen(false)}
+                    width={1000}
+                >
+                    <p>some contents...</p>
+                    <p>some contents...</p>
+                    <p>some contents...</p>
+            </Modal>
         </>
     )
 }
