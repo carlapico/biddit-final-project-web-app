@@ -11,6 +11,43 @@
     margin: 10px;
 }
 
+.newProjectDetailsBox {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.newPostTopBox {
+  display: flex;
+}
+
+.newNameAndCounty {
+  display: flex;
+  flex-direction: column;
+  /* border-style: solid; */
+  /* border-color: blue; */
+  justify-content: center;
+}
+
+
+.newServices {
+  display: flex;
+  /* border-style: solid; */
+  /* border-color: green; */
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  /* margin: auto; */
+}
+
+.newCardSection {
+    /* border: 1px solid red; */
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
 .newPostButtonBox {
     display: flex;
     justify-content: flex-end;
