@@ -20,7 +20,7 @@ export default function NewPost () {
         headers : {
             "Content-Type":"application/json"
         },
-        body:JSON.stringify({ userFullName:name, userCounty:county, servicesSeeking:service, projectRequirements:requirement, projectBudget:projBudget,projectTimeline:projTimeline})
+        body:JSON.stringify({ userFullName:name, userCounty:county, servicesSeeking:service, projectRequirements:requirement, projectBudget:projBudget, projectTimeline:projTimeline, projectOverview:overview})
         
     })
         .then(res=>res.json())
@@ -33,7 +33,7 @@ export default function NewPost () {
         <> 
             <form className="newPostBox"> 
                 <div className="newPostTopBox">
-                    <img src="https://t3.ftcdn.net/jpg/03/53/11/00/360_F_353110097_nbpmfn9iHlxef4EDIhXB1tdTD0lcWhG9.jpg" alt="default avatar for user" />
+                    <img className="newPostImage" src="https://t3.ftcdn.net/jpg/03/53/11/00/360_F_353110097_nbpmfn9iHlxef4EDIhXB1tdTD0lcWhG9.jpg" alt="default avatar for user" />
                     <div className="newNameAndCounty">
                         <label> Name
                             <input type="text" value = {name} name="userName" onChange={(e) => setName(e.target.value)} />    
@@ -59,14 +59,15 @@ export default function NewPost () {
                    
                    <section className="newCardSection">
                        <h3> Project Requirements </h3>
-                       <input type="text" value ={requirement} name="projectRequirements" onChange={(e)=>setRequirement(e.target.value)}/>
+                       <input type="text" value ={requirement} name="projectRequirements"  onChange={(e)=>setRequirement(e.target.value)}/>
                    </section> 
 
                    <section className="newCardSection">
                        <h3> Budget and Timeline </h3>
                        <div>
-                       <input type="text" value ={projBudget} name="projectBudget" onChange={(e)=>setProjBudget(e.target.value)}/>
-                       <input type="text" value ={projTimeline} name="projectTimeline" onChange={(e)=>setProjTimeline(e.target.value)}/>
+                       <input type="text" value ={projBudget} name="projectBudget" placeholder="Budget" onChange={(e)=>setProjBudget(e.target.value)}/>
+                       <br/>
+                       <input type="text" value ={projTimeline} name="projectTimeline" placeholder="Timeline" onChange={(e)=>setProjTimeline(e.target.value)}/>
                        </div>
                    </section>
                </div>
